@@ -14,4 +14,6 @@ func main() {
 	fmt.Printf("row %d\n", *pRow)
 	fmt.Printf("column: %d\n", *pColumn)
 
+	cell := NewCell(*pColumn, *pRow, true, true)
+	fmt.Printf("%v\n", *cell)
 }
